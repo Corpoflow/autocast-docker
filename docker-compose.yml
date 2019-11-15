@@ -1,0 +1,9 @@
+version: "2"
+services:
+  autocast:
+    container_name: autocast
+    build: ./docker
+    network_mode: host
+    volumes:
+      - ./config.json:/bootstrap/config.json
+    restart: unless-stopped
