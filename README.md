@@ -5,7 +5,7 @@
 - Done!
 
 
-```json config.json example
+```js config.json example
 {
   "Phone": { // Name of the Chromecast
     "interval": "20", // Interval in seconds to check if the Chromecast is inactive
