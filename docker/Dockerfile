@@ -18,8 +18,5 @@ RUN mkdir /bootstrap
 ADD ./initialize.sh /bootstrap/
 RUN chmod +x /bootstrap/initialize.sh
 
-EXPOSE 9339
-
-
 # Start the application
 ENTRYPOINT ["/bootstrap/initialize.sh"]
